@@ -1,3 +1,5 @@
 .vagrant/*
 .DS_Store
 Archive/*
+app/node_modules/*
+app/data.csv
