@@ -1,0 +1,27 @@
+
+/*Replace with actual values and rename with .json extension */
+{
+
+	"ssh": {
+		"host" : "HOST NAME",
+		"port" : "PORT",
+		"username" : "USERNAME",
+		"uses_key" : true if using private key, false if using password,
+		"password" : "PASSWORD or blank if using key",
+		"private_key" : "Absolute PATH to private key or blank if using password"
+
+	},
+	"email": {
+	    "service": "Gmail",//Refer to https://github.com/andris9/Nodemailer for more options
+	    "auth": {
+	        "user": "USERNAME",
+	        "pass": "PASSWORD"
+	    }
+	},
+	"mailOptions": {
+		"from" : "FROM EMAIL",
+		"to" : "TO EMAIL",
+		"subject" : "SUBJECT"
+
+	}
+}

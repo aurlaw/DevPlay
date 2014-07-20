@@ -2,4 +2,8 @@
 .DS_Store
 Archive/*
 app/node_modules/*
-app/data.csv
+app/data/data.csv
+*.ignore
+*.log
+app/config/digital_ocean.json
+app/config/usage.json

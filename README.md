@@ -48,6 +48,34 @@ run node redis-test to view commands
 $ node redis-test
 ```
 
+###Digital Ocean API###
+
+
+change directory to /vagrant/apps
+
+open config/digital_ocean.sample for configuration
+
+run node do-test to view commands
+
+```
+$ node do-test
+```
+
+###System Usage Email###
+
+
+change directory to /vagrant/apps
+
+open config/usage.sample for configuration
+
+run node usage-report to view commands
+
+```
+$ node do-test
+```
+
+
+
 When completed
 
 ```

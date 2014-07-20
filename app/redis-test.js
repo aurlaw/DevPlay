@@ -7,14 +7,15 @@ var program = require('commander'),
 	pjson = require('./package.json'),
 	redis = require("redis");
 
-//"host='localhost' port='9432' dbname='gd_jive' user='sa' password='sa'"
-logFile = 'manager_' + dateFormat(new Date(), "yyyy-mm-dd") + '.log';
+// set up logging
+var logName = __filename.slice(0, -3).replace(__dirname, '');
+logFile = 'logs/'+ logName +'_' + dateFormat(new Date(), "yyyy-mm-dd") + '.log';
 logger.add(logger.transports.File, { filename: logFile });
 
 
 
 var maxVal = 1000000;
-var csvFile = 'data.csv';
+var csvFile = 'data/data.csv';
 var client = null;
 
 function createRedisClient() {
