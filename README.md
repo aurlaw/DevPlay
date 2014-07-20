@@ -71,7 +71,7 @@ open config/usage.sample for configuration
 run node usage-report to view commands
 
 ```
-$ node do-test
+$ node usage-report
 ```
 
 
