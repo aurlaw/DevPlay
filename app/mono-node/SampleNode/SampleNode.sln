@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNode", "SampleNode\SampleNode.csproj", "{46E368A8-C452-477F-AE11-A23326F58866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNode.Data", "SampleNode.Data\SampleNode.Data.csproj", "{EF4A8E89-7021-40B9-9D5A-7FF915C5B494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E368A8-C452-477F-AE11-A23326F58866}.Debug|x86.ActiveCfg = Debug|x86
+		{46E368A8-C452-477F-AE11-A23326F58866}.Debug|x86.Build.0 = Debug|x86
+		{46E368A8-C452-477F-AE11-A23326F58866}.Release|x86.ActiveCfg = Release|x86
+		{46E368A8-C452-477F-AE11-A23326F58866}.Release|x86.Build.0 = Release|x86
+		{EF4A8E89-7021-40B9-9D5A-7FF915C5B494}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF4A8E89-7021-40B9-9D5A-7FF915C5B494}.Debug|x86.Build.0 = Debug|Any CPU
+		{EF4A8E89-7021-40B9-9D5A-7FF915C5B494}.Release|x86.ActiveCfg = Release|Any CPU
+		{EF4A8E89-7021-40B9-9D5A-7FF915C5B494}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SampleNode\SampleNode.csproj
+	EndGlobalSection
+EndGlobal

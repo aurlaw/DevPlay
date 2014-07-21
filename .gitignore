@@ -9,3 +9,14 @@ app/config/digital_ocean.json
 app/config/usage.json
 app/twitter-express/node_modules/*
 app/twitter-express/config/config.json
+app/mono-node/node_modules/*
+app/mono-node/SampleNode/SampleNode/bin/Debug/SampleNode.Data.dll
+app/mono-node/SampleNode/SampleNode/bin/Debug/SampleNode.Data.dll.mdb
+app/mono-node/SampleNode/SampleNode/bin/Debug/SampleNode.exe
+app/mono-node/SampleNode/SampleNode/bin/Debug/SampleNode.exe.mdb
+app/mono-node/SampleNode/SampleNode/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.csproj.FilesWrittenAbsolute.txt
+app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.exe
+app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.exe.mdb
+*.userprefs
+*.mdb

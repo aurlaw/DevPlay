@@ -12,6 +12,7 @@ SWIG
 
     console.log(data);
 
+    // good ol vanilla JS
     var content = data.user.screen_name + '';
     content += data.text + '<br/>';
     content += data.user.created_at + '<br/>';
@@ -19,6 +20,8 @@ SWIG
 
     document.writeln(content)
     // socket.emit('my other event', { my: 'data' });
+
+    // TODO: Use AngularJS
   });
 </script>
 
