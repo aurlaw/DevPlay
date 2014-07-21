@@ -75,8 +75,38 @@ $ node usage-report
 ```
 
 
+###Twitter/Express/Sockets.io###
 
-When completed
+Uses Socket.io 1.0 and Express 4
+
+change directory to /vagrant/apps/twitter-express
+
+
+Install components for Express, Twitter & Sockets.io
+
+```
+$ npm install
+```
+
+
+
+open config/config.sample for configuration
+
+run node server to launch express on port 3500
+
+```
+$ node server
+```
+
+Open your browser and go to 
+```
+http://localhost:3500/
+```
+
+####When completed####
+
+
+
 
 ```
 $ vagrant halt

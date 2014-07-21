@@ -1,0 +1,90 @@
+{% extends 'layouts/default.html' %}
+{% block content %}
+
+SWIG
+{{title}}
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:3500');
+  socket.on('tweet', function (data) {
+
+    console.log(data);
+
+    var content = data.user.screen_name + '';
+    content += data.text + '<br/>';
+    content += data.user.created_at + '<br/>';
+    content += '<hr/>';
+
+    document.writeln(content)
+    // socket.emit('my other event', { my: 'data' });
+  });
+</script>
+
+{% endblock %}
+
+<!-- 
+
+contributors: null
+coordinates: null
+created_at: "Mon Jul 21 00:42:42 +0000 2014"
+entities: Object
+favorite_count: 0
+favorited: false
+filter_level: "medium"
+geo: null
+id: 491020408096038900
+id_str: "491020408096038912"
+in_reply_to_screen_name: null
+in_reply_to_status_id: null
+in_reply_to_status_id_str: null
+in_reply_to_user_id: null
+in_reply_to_user_id_str: null
+lang: "sl"
+place: null
+possibly_sensitive: false
+retweet_count: 0
+retweeted: false
+source: "<a href="http://tweetadder.com" rel="nofollow">TweetAdder v4</a>"
+text: "#qatar #uae #uk #usa #f1 #formula1 756 http://t.co/lOCp6eFw0R http://t.co/M19aAhEgEK"
+truncated: false
+user: Object
+contributors_enabled: false
+created_at: "Tue May 13 19:27:31 +0000 2014"
+default_profile: true
+default_profile_image: false
+description: "ممحونه احب الوضعيه الفرنسيه من جاد يضيفني سكس فون سهران اي شي"
+favourites_count: 0
+follow_request_sent: null
+followers_count: 7983
+following: null
+friends_count: 0
+geo_enabled: false
+id: 2493426512
+id_str: "2493426512"
+is_translator: false
+lang: "en"
+listed_count: 48
+location: ""
+name: "مريم احبه من ورى"
+notifications: null
+profile_background_color: "C0DEED"
+profile_background_image_url: "http://abs.twimg.com/images/themes/theme1/bg.png"
+profile_background_image_url_https: "https://abs.twimg.com/images/themes/theme1/bg.png"
+profile_background_tile: false
+profile_banner_url: "https://pbs.twimg.com/profile_banners/2493426512/1400009282"
+profile_image_url: "http://pbs.twimg.com/profile_images/466298802702274560/ranvd8aB_normal.jpeg"
+profile_image_url_https: "https://pbs.twimg.com/profile_images/466298802702274560/ranvd8aB_normal.jpeg"
+profile_link_color: "0084B4"
+profile_sidebar_border_color: "C0DEED"
+profile_sidebar_fill_color: "DDEEF6"
+profile_text_color: "333333"
+profile_use_background_image: true
+protected: false
+screen_name: "Humoud452"
+statuses_count: 57767
+time_zone: "Baghdad"
+url: null
+utc_offset: 10800
+verified: false -->

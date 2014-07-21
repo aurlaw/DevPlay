@@ -7,3 +7,5 @@ app/data/data.csv
 *.log
 app/config/digital_ocean.json
 app/config/usage.json
+app/twitter-express/node_modules/*
+app/twitter-express/config/config.json
