@@ -20,3 +20,5 @@ app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.exe
 app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.exe.mdb
 *.userprefs
 *.mdb
+app/parse-test/node_modules/*
+app/mono-node/logs/*

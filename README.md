@@ -1,6 +1,6 @@
 # Dev Play
 
-Sample NodeJS applications
+Sample NodeJS applications just for experimentation
 
 Uses Vagrant with Ubuntu precise 64-bit VirtualBox 
 
@@ -141,3 +141,5 @@ NPM Clean Cache:
 ```
 $ npm cache clean
 ```
+
+
