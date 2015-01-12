@@ -22,3 +22,5 @@ app/mono-node/SampleNode/SampleNode/obj/x86/Debug/SampleNode.exe.mdb
 *.mdb
 app/parse-test/node_modules/*
 app/mono-node/logs/*
+app/ios-passkit-express/keys/*
+app/ios-passkit-express/node_modules/*

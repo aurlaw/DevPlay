@@ -1,0 +1,64 @@
+
+{
+	"passbook" : {
+	  "secret":    "aurlaw",
+	  "passID" :	"pass.com.aurlaw.passbookexpressdev",
+	  "teamID":		"T54JASTD4Z"
+	 },
+	 "membership": {
+	 	"organizationName" : "Aurlaw Solutions",
+	 	"description" : "Membership card",
+		"foregroundColor" : "rgb(255, 255, 255)",
+		"backgroundColor" : "rgb(12, 76, 120)",
+		"barcode" : {
+			"format" : "PKBarcodeFormatPDF417",
+			"messageEncoding" : "iso-8859-1"
+		}		
+	 }
+}
+/*
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.aurlaw.membership",
+  "serialNumber" : "10000",
+  "teamIdentifier" : "T54JASTD4Z",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Aurlaw Solutions",
+  "description" : "Membership card",
+  "logoText" : "Aurlaw Solutions",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(12, 76, 120)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "member",
+        "value" : "Michael Lawrence"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "subtitle",
+        "label" : "MEMBER SINCE",
+        "value" : "1998"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "title",
+        "label" : "Title",
+        "value" : "Developer"
+      },
+      {
+        "dateStyle" : "PKDateStyleFull",
+        "label" : "DOB",
+        "key" : "dateFull",
+        "value" : "1974-09-08T10:00-05:00"
+      }
+    ]
+  }
+}
+*/

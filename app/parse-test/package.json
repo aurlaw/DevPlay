@@ -1,0 +1,19 @@
+{
+  "name": "DevPlay-Parse-Test",
+  "version": "0.0.1",
+  "description": "DevPlay Node with Parse",
+  "main": "parse-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.2.0",
+    "dateformat": "^1.0.8-1.2.3",
+    "lodash": "^2.4.1",
+    "node-parse-api": "^0.2.8",
+    "winston": "^0.7.3"
+  }
+}
