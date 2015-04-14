@@ -26,3 +26,6 @@ app/ios-passkit-express/keys/*
 app/ios-passkit-express/node_modules/*
 go/pkg/*
 go/bin/*
+go/src/github.com/kr/fs/
+go/src/github.com/tools/godep/
+go/src/golang.org/x/tools/
