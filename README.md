@@ -1,13 +1,14 @@
 # Dev Play
 
-Sample NodeJS applications just for experimentation
+Sample NodeJS & Go applications just for experimentation
 
 Uses Vagrant with Ubuntu precise 64-bit VirtualBox 
 
-Provisioned with Puppet for Nodejs & Redis
+Provisioned with Puppet for Nodejs, Go & Redis
 
 Node JS applications contained under "app" directory
 
+Go applications contained under "go" directory
 
 
 ## Prerequisites ##
@@ -23,7 +24,7 @@ $ vagrant up
 ```
 
 
-## Sample Applications ##
+## Node JS Sample Applications ##
 
 SSH to vagrant box
 
@@ -103,7 +104,40 @@ Open your browser and go to
 http://localhost:3500/
 ```
 
-####When completed####
+
+## Go Sample Applications ##
+
+SSH to vagrant box
+
+```
+$ vagrant ssh
+```
+
+
+Install components
+
+change directory to /vagrant/go
+
+```
+$ go get github.com/tools/godep
+```
+
+
+
+###Hello World###
+
+
+change directory to /vagrant/go/src
+
+run go run hello.go
+
+```
+$ go run hello/hello.go
+```
+
+
+
+##When completed##
 
 
 
